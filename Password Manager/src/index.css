@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+
+body{
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input[type="range"] {
+  -webkit-appearance: none;  /* Remove default styling in Webkit browsers */
+  appearance: none;
+  width: 40%;  /* Full width of the slider */
+  height: 12px;  /* Track height */
+  background: #ddd;  /* Track color */
+  border-radius: 5px;  /* Rounded corners for the track */
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 12px;  /* Track height */
+  background: orangered;  /* Green track */
+ border-radius: 5px;  /* Rounded corners for the track */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;  /* Remove default thumb styling */
+  appearance: none;
+  width: 20px;  /* Set the width of the thumb */
+  height: 15px;  /* Set the height of the thumb */
+  background: whitesmoke;  /* Tomato color for the thumb */
+  border-radius: 0;  /* Make the thumb square (remove rounding) */
+  
+}
+
+.yellowgreen{
+  background-color: yellowgreen;
+}
+.royalBlue{
+  background-color: royalblue;
+}
+.crimson{
+  background-color: crimson;
+}
+.lightpurple{
+  background-color: #41295a;
+}
+.darkpurple{
+  background-color: #2F0743;
+}
